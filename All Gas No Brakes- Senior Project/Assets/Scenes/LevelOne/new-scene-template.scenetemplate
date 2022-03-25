@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: new-scene-template
+  m_EditorClassIdentifier: 
+  templateScene: {fileID: 102900000, guid: a79d34bcb9998ce44ba8f3b0d6cd79a5, type: 3}
+  templateName: 2D Scene Template
+  description: 'Includes everything needed for someone to create a 2D platformer
+    level.
+
+    - Player prefab
+
+    - '
+  preview: {fileID: 0}
+  dependencies:
+  - dependency: {fileID: 7312641124038381847, guid: 61af23c0674fa8846a147d456d0f4060, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 7288061994971122032, guid: e2e9708b7dfcaf349a74a725992c464a, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 110bd72ae36c6d341b1f2e2cb78c1c9e, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 6708af5e84abe6d43910d52d757c8aaf, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 2800000, guid: 89f4812137b8c6d42857164baeea2209, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: f02fd7664c5c00644bccf4964db1abfd, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 2800000, guid: 3a51b5c6825c73b4492db7a5f795588b, type: 3}
+    instantiationMode: 0
+  - dependency: {fileID: 11400000, guid: 580a90fe46040164d98c76e64c306e56, type: 2}
+    instantiationMode: 1
+  - dependency: {fileID: 7312641124038381847, guid: 50352e7e71f508643b6ab1ea19120c3e, type: 3}
+    instantiationMode: 0
+  templatePipeline: {fileID: 0}
+  addToDefaults: 0

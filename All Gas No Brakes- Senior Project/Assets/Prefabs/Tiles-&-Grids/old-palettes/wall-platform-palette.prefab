@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3503874789644848738}
   - component: {fileID: 2055222675410535473}
-  m_Layer: 0
+  m_Layer: 31
   m_Name: wall-platform-palette
   m_TagString: EditorOnly
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
@@ -123,7 +123,7 @@ Tilemap:
       e33: 1
   m_TileColorArray:
   - m_RefCount: 1
-    m_Data: {r: 1, g: 1, b: 1, a: 1}
+    m_Data: {r: 1, g: 0.55176705, b: 0.19339621, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -196,7 +196,7 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &4783441031918499462
+--- !u!114 &2815764253080480922
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

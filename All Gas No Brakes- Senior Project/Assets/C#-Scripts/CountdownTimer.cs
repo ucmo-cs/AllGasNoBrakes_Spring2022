@@ -18,6 +18,6 @@ public class CountdownTimer : MonoBehaviour
     void Update()
     {
         currentTime -= 1 * Time.deltaTime;//decrease by 1 second
-        countdownText.text = currentTime.ToString("0");//format string to show whole number
+        countdownText.text = "Time: " + currentTime.ToString("0");//format string to show whole number
     }
 }

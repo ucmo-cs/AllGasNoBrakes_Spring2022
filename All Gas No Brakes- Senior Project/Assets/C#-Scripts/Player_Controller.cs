@@ -8,6 +8,7 @@ public class Player_Controller : MonoBehaviour
     private PlayerAnimation playerAnim;
     private SpriteRenderer playerSprite;
 
+    public Vector3 respawnPoint;
     Rigidbody2D rb;
     public float walkSpeed = 10.0f;
     public float jumpSpeed = 5.0f;
@@ -26,6 +27,7 @@ public class Player_Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        respawnPoint = new Vector3(-4f, -12f, 0f);
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         playerAnim = GetComponent<PlayerAnimation>();

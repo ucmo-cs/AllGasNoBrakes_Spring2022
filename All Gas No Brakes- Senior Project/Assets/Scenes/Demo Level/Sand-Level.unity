@@ -262,7 +262,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8614532088561934046, guid: 7e2f0f74bfb7d5c47b6c377e169aec54, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8614532088561934046, guid: 7e2f0f74bfb7d5c47b6c377e169aec54, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.44085935
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8614532088561934046, guid: 7e2f0f74bfb7d5c47b6c377e169aec54, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7e2f0f74bfb7d5c47b6c377e169aec54, type: 3}
 --- !u!1 &1568828533
 GameObject:
@@ -565,6 +574,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5386889936246544282, guid: 7e2f0f74bfb7d5c47b6c377e169aec54, type: 3}
   m_PrefabInstance: {fileID: 1550509323}
   m_PrefabAsset: {fileID: 0}
+--- !u!70 &1869794161
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1869794160}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.0031677883, y: -0.030885538}
+  m_Size: {x: 0.14558634, y: 0.32523632}
+  m_Direction: 0
 --- !u!1 &2025665528 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5708181688161435231, guid: 0f177035d569e4042b6c90fc33a15efc, type: 3}
@@ -21689,6 +21714,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[34].Array.data[11].Y
       value: -62500000
       objectReference: {fileID: 0}
+    - target: {fileID: 8146540725888354003, guid: 5c6cea5796ff1804b96b11049828a02b, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: 11248cb05fb508d4aa1d103958d565c9, type: 2}
     - target: {fileID: 8146540725888354006, guid: 5c6cea5796ff1804b96b11049828a02b, type: 3}
       propertyPath: m_TileSpriteArray.Array.size
       value: 15

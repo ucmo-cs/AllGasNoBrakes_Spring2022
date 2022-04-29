@@ -121,8 +121,8 @@ public class Player_Controller : MonoBehaviour
         {
             anim.SetBool("isJumping", false);
         }
-    }
-
+    }   
+    
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);

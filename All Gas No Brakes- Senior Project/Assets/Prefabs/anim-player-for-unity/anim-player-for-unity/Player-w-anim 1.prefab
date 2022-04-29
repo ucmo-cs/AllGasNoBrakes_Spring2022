@@ -150,6 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30e6a5ba578ad1342b811a5004bf53de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawnPoint: {x: 0, y: 0, z: 0}
   walkSpeed: 10
   jumpSpeed: 12.5
   amtOfJumps: 1

@@ -39,3 +39,8 @@ sysinfo.txt
 Icon?
 ehthumbs.db
 Thumbs.db
+<<<<<<< Updated upstream
+=======
+*.log
+*.log
+>>>>>>> Stashed changes
